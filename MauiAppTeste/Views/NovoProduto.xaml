@@ -4,8 +4,8 @@
              x:Class="MauiAppTeste.Views.NovoProduto"
              Title="NovoProduto">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Salvar"
-        </ContentPage.ToolbarItems>
+        <ToolbarItem Text="Salvar" />
+    </ContentPage.ToolbarItems>
 
             <ContentPage.Content>
                 <VerticalStackLayout>
