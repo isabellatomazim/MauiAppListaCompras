@@ -22,5 +22,12 @@ namespace MauiAppTeste
                 return _db;
             }
         }
+
+        public App()
+        {
+            InitializeComponent();
+
+            MainPage = new AppShell();
+        }
     }
 }
