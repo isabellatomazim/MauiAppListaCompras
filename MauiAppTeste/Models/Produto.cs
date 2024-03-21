@@ -10,6 +10,6 @@ namespace MauiAppTeste.Models
         public string Descricao { get; set; }
         public double Quantidade { get; set; }
         public double Preco { get; set; }
-        public double Total { get; set;}
+        public double Total { get => Preco * Quantidade; }
     }
 }
